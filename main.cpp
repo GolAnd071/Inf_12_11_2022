@@ -87,8 +87,6 @@ int main() {
     double price;
     std::istringstream(prices[idx]) >> price;
 
-    std::cout << names[idx] << ' ' << area << ' ' << price << '\n';
-
     double pr2m2_cur = price / area;
     if (pr2m2_cur < pr2m2_min) {
       ans = refs[idx];
